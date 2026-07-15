@@ -164,14 +164,6 @@ Example response:
 }
 ```
 
-## Running Tests
-
-Unit tests live under `tests/` and cover data transformation, model utilities, and the prediction pipeline:
-
-```bash
-pytest tests/
-```
-
 ## Roadmap
 
 Ideas for extending this project further:
