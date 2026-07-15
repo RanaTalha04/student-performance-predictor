@@ -1,0 +1,11 @@
+[project]
+name = "student-performance-predictor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.139.0",
+    "joblib>=1.5.3",
+    "scikit-learn>=1.9.0",
+]
