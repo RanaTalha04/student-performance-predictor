@@ -1,6 +1,6 @@
 from pathlib import Path
 from dataclasses import dataclass
-from src.constant import ARTIFICATS_DIR, RAW_DATA_DIR, DATASET_NAME, MODELS_DIR
+from src.constant import ARTIFACTS_DIR, RAW_DATA_DIR, DATASET_NAME, MODELS_DIR
 
 
 @dataclass(frozen=True)
@@ -8,15 +8,15 @@ class DataIngestionConfig:
     
     raw_data_path = RAW_DATA_DIR / DATASET_NAME
     
-    train_data_path = ARTIFICATS_DIR / "train.csv"
+    train_data_path = ARTIFACTS_DIR / "train.csv"
     
-    test_data_path = ARTIFICATS_DIR / "test.csv"
+    test_data_path = ARTIFACTS_DIR / "test.csv"
     
 
 @dataclass(frozen=True)
 class DataTransformationConfig:
     
-    preprocessor_path: Path = ARTIFICATS_DIR / "preprocessor.pkl"
+    preprocessor_path: Path = ARTIFACTS_DIR / "preprocessor.pkl"
 
 
 @dataclass(frozen=True)
