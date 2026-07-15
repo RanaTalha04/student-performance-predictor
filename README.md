@@ -173,6 +173,4 @@ Ideas for extending this project further:
 - Add CI (GitHub Actions) to run tests and linting on every push
 - Deploy to a cloud service (e.g., Render, AWS, GCP)
 
-## License
 
-Specify your license here (e.g., MIT).
